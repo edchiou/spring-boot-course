@@ -6,4 +6,6 @@ public interface IAccountsService {
     void createAccount(CustomerDto customerDto);
 
     CustomerDto getAccount(String mobileNumber);
+
+    boolean updateAccount(CustomerDto customerDto);
 }
